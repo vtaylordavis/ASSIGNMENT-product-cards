@@ -1,3 +1,44 @@
 body {
-  background-color: blueviolet;
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+}
+
+img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  align-self: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: aliceblue;
+  border-color: aquamarine;
+  width: 500px;
+  height: 500;
+  border: 1px solid lightblue;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-desc {
+  text-align: center;
+}
+
+.product-av {
+  background-color: grey;
+  color: yellow;
+}
+
+header {
+  font-weight: bolder;
+}
+
+footer {
+  font: italic;
+  font-size: x-small;
 }
